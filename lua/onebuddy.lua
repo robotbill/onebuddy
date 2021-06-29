@@ -119,10 +119,10 @@ v.g.terminal_color_15 = "#e3e5e9"
 -- Vim Editor Color --
 ----------------------
 
-Group.new('Normal',       c.mono_1,       c.syntax_bg,      no)
+Group.new('Normal',       c.mono_1,       c.none,      no)
 Group.new('bold',         c.none,         c.none,      b)
 Group.new('ColorColumn',  c.none,         c.syntax_cursor,  no)
-Group.new('Conceal',      c.mono_4,       c.syntax_bg,      no)
+Group.new('Conceal',      c.mono_4,       c.none,      no)
 Group.new('Cursor',       c.none,         c.syntax_accent,  no)
 Group.new('CursorIM',     c.none,         c.none,      no)
 Group.new('CursorColumn', c.none,         c.syntax_cursor,  no)
@@ -132,7 +132,7 @@ Group.new('ErrorMsg',     c.hue_5,        c.none,         no)
 Group.new('VertSplit',    c.mono_4,       c.none,      no)
 Group.new('Folded',       c.mono_3,       c.none,         no)
 Group.new('FoldColumn',   c.mono_3,       c.syntax_cursor,  no)
-Group.new('IncSearch',    c.syntax_bg,        c.hue_2,      no)
+Group.new('IncSearch',    c.none,         c.hue_2,      no)
 Group.new('LineNr',       c.mono_4,       c.none,      no)
 Group.new('CursorLineNr', c.mono_1,       c.syntax_cursor,  no)
 Group.new('MatchParen',   c.hue_5,        c.syntax_cursor,  ul + b)
